@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+				<value id="googleadservices" type="host">*.googleadservices.com</value>
+				<value id="google-analytics" type="host">*.google-analytics.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="trustedshops" type="host">*.trustedshops.com</value>
+                <value id="usercentrics" type="host">*.usercentrics.eu</value>
+                <value id="fontawesome" type="host">*.fontawesome.com</value>
+				<value id="connect-facebook" type="host">https://connect.facebook.net</value>
+				<value id="paypalobjects" type="host">*.paypalobjects.com</value>
+				<value id="paypal" type="host">*.paypal.com</value>
+				<value id="chimpstatic" type="host">https://chimpstatic.com</value>
+				<value id="googletagmanager" type="host">*.googletagmanager.com</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>
+				<value id="s-adroll" type="host">https://s.adroll.com</value>
+				<value id="d-adroll" type="host">https://d.adroll.com</value>
+				<value id="adroll-mgr" type="host">https://d.adroll.mgr.consensu.org</value>
+			</values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="googleapis" type="host">*.googleapis.com</value>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="trustedshops" type="host">*.trustedshops.com</value>
+                <value id="usercentrics" type="host">*.usercentrics.eu</value>
+                <value id="fontawesome" type="host">*.fontawesome.com</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+				<value id="gstatic" type="host">*.gstatic.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">https://www.facebook.com</value>
+                <value id="klarna-base" type="host">*.klarna.com</value>
+                <value id="googleadservices" type="host">*.googleadservices.com</value>
+                <value id="google-analytics" type="host">*.google-analytics.com</value>
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+                <value id="youtube-img" type="host">*.ytimg.com</value>
+                <value id="data" type="host">'self' data:</value>
+                <value id="lightemporium" type="host">*.lightemporium.com</value>                
+                <value id="usercentrics" type="host">*.usercentrics.eu</value>
+				<value id="connect-base" type="host">*.connect.facebook.net</value>
+				<value id="stats-doubleclick" type="host">https://stats.g.doubleclick.net</value>
+				<value id="youtube.com" type="host">*.youtube.com</value>
+				<value id="d-adroll" type="host">https://d.adroll.com</value>
+				<value id="lafavorita" type="host">https://www.lafavorita.com</value>
+				<value id="pixel-advertising" type="host">https://pixel.advertising.com</value>
+				<value id="pixel-rubiconproject" type="host">https://pixel.rubiconproject.com</value>
+				<value id="simage2-pubmatic" type="host">https://simage2.pubmatic.com</value>
+				<value id="dsum-sec-casalemedia" type="host">https://dsum-sec.casalemedia.com</value>
+				<value id="ads-yahoo" type="host">https://ads.yahoo.com</value>
+				<value id="eb2-3lift" type="host">https://eb2.3lift.com</value>
+				<value id="sync-outbrain" type="host">https://sync.outbrain.com</value>
+				<value id="trc-taboola" type="host">https://trc.taboola.com</value>
+				<value id="x-bidswitch" type="host">https://x.bidswitch.net</value>
+				<value id="ib-adnxs" type="host">https://ib.adnxs.com</value>
+				<value id="idsync-rlcdn" type="host">https://idsync.rlcdn.com</value>
+				<value id="us-u-openx" type="host">https://us-u.openx.net</value>
+				<value id="ups-analytics-yahoo" type="host">https://ups.analytics.yahoo.com</value>
+				<value id="segments-company-target" type="host">https://segments.company-target.com</value>
+				<value id="x-bidswitch" type="host">https://x.bidswitch.net/sync</value>
+				<value id="ib-adnxs" type="host">https://ib.adnxs.com</value>
+				<value id="idsync-rlcdn" type="host">https://idsync.rlcdn.com</value>
+				<value id="us-u-openx" type="host">https://us-u.openx.net</value>
+				<value id="ups-analytics-yahoo" type="host">https://ups.analytics.yahoo.com</value>
+				<value id="segments-company-target" type="host">https://segments.company-target.com</value>
+				<value id="sync-tidaltv" type="host">https://sync.tidaltv.com</value>
+			</values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+                <value id="paypal" type="host">*.paypal.com</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+				<value id="google.com" type="host">*.google.com</value>
+				<value id="google.co.in" type="host">*.google.co.in</value>
+				<value id="facebook.com" type="host">*.facebook.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="twimg" type="host">*.twimg.com</value>
+                <value id="trustedshops" type="host">*.trustedshops.com</value>
+                <value id="googleapis" type="host">*.googleapis.com</value>
+            </values>
+        </policy>
+
+        <policy id="frame-src">
+            <values>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+				<value id="google.com" type="host">https://www.google.com</value>
+				<value id="google.co.in" type="host">https://www.google.co.in</value>
+				<value id="facebook.com" type="host">https://www.facebook.com</value>
+            </values>
+        </policy>
+
+        <policy id="form-action">
+            <values>
+                <value id="twitter.com" type="host">*.twitter.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
