@@ -1,4 +1,11 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * @copyright: Copyright © 2020 Anantkprajapati. All rights reserved.
+ * @author   : Anant Prajapati <anant101289@gmail.com>
+ * @site : https://anantkprajapati.com/
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <csp>
