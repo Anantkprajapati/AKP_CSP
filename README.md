@@ -1,6 +1,6 @@
 # AKP_CSP
 
-Allow Content Security Policy form Magento2
+Allow Content Security Policy in Magento2
 
 # INSTALLATION STEPS
 1. Download module or git clone from here
