@@ -134,6 +134,7 @@
         <policy id="form-action">
             <values>
                 <value id="twitter.com" type="host">*.twitter.com</value>
+                <value id="facebook.com" type="host">*.facebook.com</value>
             </values>
         </policy>
     </policies>
