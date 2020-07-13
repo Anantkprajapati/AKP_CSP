@@ -72,7 +72,6 @@
 				<value id="stats-doubleclick" type="host">https://stats.g.doubleclick.net</value>
 				<value id="youtube.com" type="host">*.youtube.com</value>
 				<value id="d-adroll" type="host">https://d.adroll.com</value>
-				<value id="lafavorita" type="host">https://www.lafavorita.com</value>
 				<value id="pixel-advertising" type="host">https://pixel.advertising.com</value>
 				<value id="pixel-rubiconproject" type="host">https://pixel.rubiconproject.com</value>
 				<value id="simage2-pubmatic" type="host">https://simage2.pubmatic.com</value>
