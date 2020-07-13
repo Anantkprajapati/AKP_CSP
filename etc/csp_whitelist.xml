@@ -120,6 +120,7 @@
                 <value id="twimg" type="host">*.twimg.com</value>
                 <value id="trustedshops" type="host">*.trustedshops.com</value>
                 <value id="googleapis" type="host">*.googleapis.com</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
             </values>
         </policy>
 
