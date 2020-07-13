@@ -31,6 +31,7 @@
 				<value id="s-adroll" type="host">https://s.adroll.com</value>
 				<value id="d-adroll" type="host">https://d.adroll.com</value>
 				<value id="adroll-mgr" type="host">https://d.adroll.mgr.consensu.org</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
 			</values>
         </policy>
         <policy id="style-src">
@@ -48,6 +49,7 @@
                 <value id="usercentrics" type="host">*.usercentrics.eu</value>
                 <value id="fontawesome" type="host">*.fontawesome.com</value>
 				<value id="youtube.com" type="host">*.youtube.com</value>
+                <value id="bootstapcdn" type="host">*.bootstrapcdn.com</value>
             </values>
         </policy>
         <policy id="img-src">
